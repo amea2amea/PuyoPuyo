@@ -1,0 +1,29 @@
+﻿  PuyoBitmap.cpp
+  WinMain.cpp
+  WindowProc.cpp
+  WindowCreator.cpp
+  PuyoManger.cpp
+  PuyoLogic.cpp
+  PuyoFiled.cpp
+  PuyoFallingBlock.cpp
+  PuyoDraw.cpp
+  PuyoBlock.cpp
+  ProcessManger.cpp
+  Input.cpp
+  Graphics.cpp
+  global.cpp
+  GameLogic.cpp
+  FameWork.cpp
+  ControlProcess.cpp
+  Array2D.cpp
+  Array1D.cpp
+  コンパイル中...
+  コードを生成中...
+  PuyoPuyo.vcxproj -> D:\Users\petri\Documents\GitHub\PuyoPuyo\x64\Debug\PuyoPuyo.exe
+d:\users\petri\documents\github\puyopuyo\puyopuyo\graphics.cpp(511): warning C6387: 'hpen' は '0' である可能性があります: この動作は、関数 'DeleteObject' の指定に従っていません。
+d:\users\petri\documents\github\puyopuyo\puyopuyo\graphics.cpp(576): warning C6387: 'hpen' は '0' である可能性があります: この動作は、関数 'DeleteObject' の指定に従っていません。
+d:\users\petri\documents\github\puyopuyo\puyopuyo\graphics.cpp(835): warning C6387: 'hpen' は '0' である可能性があります: この動作は、関数 'DeleteObject' の指定に従っていません。
+d:\users\petri\documents\github\puyopuyo\puyopuyo\input.cpp(228): warning C6295: for ループの定義が無効です: 'char' 値は常に '-128' から '127' の範囲内です。ループは無限に実行されます。
+d:\users\petri\documents\github\puyopuyo\puyopuyo\processmanger.cpp(69): warning C6387: '_Param_(3)' は '0' である可能性があります: この動作は、関数 'OpenMutexW' の指定に従っていません。
+d:\users\petri\documents\github\puyopuyo\puyopuyo\processmanger.cpp(79): warning C6387: 'hMutex' は '0' である可能性があります: この動作は、関数 'CloseHandle' の指定に従っていません。
+d:\users\petri\documents\github\puyopuyo\puyopuyo\winmain.cpp(24): warning C28251: 'wWinMain' に対する整合性のない注釈: このインスタンスには 注釈なし が含まれます。c:\program files\windows kits\8.1\include\um\winbase.h(918) を参照してください。

@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84B9206E-EBFB-4DCA-A410-EB0BA23D7422}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PuyoPuyo</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Array1D.cpp" />
+    <ClCompile Include="Array2D.cpp" />
+    <ClCompile Include="ControlProcess.cpp" />
+    <ClCompile Include="FameWork.cpp" />
+    <ClCompile Include="GameLogic.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="ProcessManger.cpp" />
+    <ClCompile Include="PuyoBlock.cpp" />
+    <ClCompile Include="PuyoDraw.cpp" />
+    <ClCompile Include="PuyoFallingBlock.cpp" />
+    <ClCompile Include="PuyoFiled.cpp" />
+    <ClCompile Include="PuyoLogic.cpp" />
+    <ClCompile Include="PuyoManger.cpp" />
+    <ClCompile Include="WindowCreator.cpp" />
+    <ClCompile Include="WindowProc.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="PuyoBitmap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array1D.h" />
+    <ClInclude Include="Array2D.h" />
+    <ClInclude Include="ControlProcess.h" />
+    <ClInclude Include="FrameWork.h" />
+    <ClInclude Include="GameLogic.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="ProcessManger.h" />
+    <ClInclude Include="PuyoBlock.h" />
+    <ClInclude Include="PuyoDraw.h" />
+    <ClInclude Include="PuyoFallingBlock.h" />
+    <ClInclude Include="PuyoFiled.h" />
+    <ClInclude Include="PuyoLogic.h" />
+    <ClInclude Include="PuyoManger.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="WindowCreator.h" />
+    <ClInclude Include="PuyoBitmap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Image\black_normal.bmp" />
+    <Image Include="..\Image\blue_b.bmp" />
+    <Image Include="..\Image\blue_l.bmp" />
+    <Image Include="..\Image\blue_lb.bmp" />
+    <Image Include="..\Image\blue_lr.bmp" />
+    <Image Include="..\Image\blue_lrb.bmp" />
+    <Image Include="..\Image\blue_lt.bmp" />
+    <Image Include="..\Image\blue_ltb.bmp" />
+    <Image Include="..\Image\blue_ltr.bmp" />
+    <Image Include="..\Image\blue_ltrb.bmp" />
+    <Image Include="..\Image\blue_normal.bmp" />
+    <Image Include="..\Image\blue_r.bmp" />
+    <Image Include="..\Image\blue_rb.bmp" />
+    <Image Include="..\Image\blue_t.bmp" />
+    <Image Include="..\Image\blue_tb.bmp" />
+    <Image Include="..\Image\blue_tr.bmp" />
+    <Image Include="..\Image\blue_trb.bmp" />
+    <Image Include="..\Image\green_b.bmp" />
+    <Image Include="..\Image\green_l.bmp" />
+    <Image Include="..\Image\green_lb.bmp" />
+    <Image Include="..\Image\green_lr.bmp" />
+    <Image Include="..\Image\green_lrb.bmp" />
+    <Image Include="..\Image\green_lt.bmp" />
+    <Image Include="..\Image\green_ltb.bmp" />
+    <Image Include="..\Image\green_ltr.bmp" />
+    <Image Include="..\Image\green_ltrb.bmp" />
+    <Image Include="..\Image\green_normal.bmp" />
+    <Image Include="..\Image\green_r.bmp" />
+    <Image Include="..\Image\green_rb.bmp" />
+    <Image Include="..\Image\green_t.bmp" />
+    <Image Include="..\Image\green_tb.bmp" />
+    <Image Include="..\Image\green_tr.bmp" />
+    <Image Include="..\Image\green_trb.bmp" />
+    <Image Include="..\Image\purple_b.bmp" />
+    <Image Include="..\Image\purple_l.bmp" />
+    <Image Include="..\Image\purple_lb.bmp" />
+    <Image Include="..\Image\purple_lr.bmp" />
+    <Image Include="..\Image\purple_lrb.bmp" />
+    <Image Include="..\Image\purple_lt.bmp" />
+    <Image Include="..\Image\purple_ltb.bmp" />
+    <Image Include="..\Image\purple_ltr.bmp" />
+    <Image Include="..\Image\purple_ltrb.bmp" />
+    <Image Include="..\Image\purple_normal.bmp" />
+    <Image Include="..\Image\purple_r.bmp" />
+    <Image Include="..\Image\purple_rb.bmp" />
+    <Image Include="..\Image\purple_t.bmp" />
+    <Image Include="..\Image\purple_tb.bmp" />
+    <Image Include="..\Image\purple_tr.bmp" />
+    <Image Include="..\Image\purple_trb.bmp" />
+    <Image Include="..\Image\red_b.bmp" />
+    <Image Include="..\Image\red_l.bmp" />
+    <Image Include="..\Image\red_lb.bmp" />
+    <Image Include="..\Image\red_lr.bmp" />
+    <Image Include="..\Image\red_lrb.bmp" />
+    <Image Include="..\Image\red_lt.bmp" />
+    <Image Include="..\Image\red_ltb.bmp" />
+    <Image Include="..\Image\red_ltr.bmp" />
+    <Image Include="..\Image\red_ltrb.bmp" />
+    <Image Include="..\Image\red_normal.bmp" />
+    <Image Include="..\Image\red_r.bmp" />
+    <Image Include="..\Image\red_rb.bmp" />
+    <Image Include="..\Image\red_rt.bmp" />
+    <Image Include="..\Image\red_t.bmp" />
+    <Image Include="..\Image\red_tb.bmp" />
+    <Image Include="..\Image\red_tr.bmp" />
+    <Image Include="..\Image\red_trb.bmp" />
+    <Image Include="..\Image\yellow_b.bmp" />
+    <Image Include="..\Image\yellow_l.bmp" />
+    <Image Include="..\Image\yellow_lb.bmp" />
+    <Image Include="..\Image\yellow_lr.bmp" />
+    <Image Include="..\Image\yellow_lrb.bmp" />
+    <Image Include="..\Image\yellow_lrtb.bmp" />
+    <Image Include="..\Image\yellow_lt.bmp" />
+    <Image Include="..\Image\yellow_ltb.bmp" />
+    <Image Include="..\Image\yellow_ltr.bmp" />
+    <Image Include="..\Image\yellow_ltrb.bmp" />
+    <Image Include="..\Image\yellow_normal.bmp" />
+    <Image Include="..\Image\yellow_r.bmp" />
+    <Image Include="..\Image\yellow_rb.bmp" />
+    <Image Include="..\Image\yellow_t.bmp" />
+    <Image Include="..\Image\yellow_tb.bmp" />
+    <Image Include="..\Image\yellow_tr.bmp" />
+    <Image Include="..\Image\yellow_trb.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

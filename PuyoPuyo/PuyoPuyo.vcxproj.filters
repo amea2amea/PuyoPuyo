@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Array1D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Array2D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlProcess.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FameWork.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManger.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoBlock.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoDraw.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoFallingBlock.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoFiled.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoLogic.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoManger.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowCreator.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowProc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PuyoBitmap.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array1D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Array2D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlProcess.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWork.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManger.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoBlock.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoDraw.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoFallingBlock.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoFiled.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoLogic.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoManger.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowCreator.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PuyoBitmap.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Image\black_normal.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_b.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_l.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_lb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_lr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_lrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_lt.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_ltb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_ltr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_ltrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_normal.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_r.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_rb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_t.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_tb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_tr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\blue_trb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_b.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_l.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_lb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_lr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_lrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_lt.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_ltb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_ltr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_ltrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_normal.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_r.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_rb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_t.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_tb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_tr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\green_trb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_b.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_l.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_lb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_lr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_lrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_lt.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_ltb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_ltr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_ltrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_normal.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_r.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_rb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_t.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_tb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_tr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\purple_trb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_b.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_l.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_lb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_lr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_lrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_ltb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_ltr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_ltrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_normal.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_r.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_rb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_rt.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_t.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_tb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_tr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_trb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_b.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_l.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_lb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_lr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_lrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_lrtb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_lt.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_ltb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_ltr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_normal.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_r.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_rb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_t.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_tb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_tr.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_trb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\red_lt.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="..\Image\yellow_ltrb.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

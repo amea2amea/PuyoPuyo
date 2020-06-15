@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\users\petri\documents\github\puyopuyo\puyopuyo\</FILEPATH>
+      <FILENAME>input.cpp</FILENAME>
+      <LINE>228</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6295</DEFECTCODE>
+    <DESCRIPTION>for ループの定義が無効です: 'char' 値は常に '-128' から '127' の範囲内です。ループは無限に実行されます。</DESCRIPTION>
+    <FUNCTION>CInput::GetKeyPressed</FUNCTION>
+    <DECORATED>?GetKeyPressed@CInput@@QEBADXZ</DECORATED>
+    <FUNCLINE>226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

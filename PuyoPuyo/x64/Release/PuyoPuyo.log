@@ -1,0 +1,23 @@
+﻿  Array1D.cpp
+  Array2D.cpp
+  ControlProcess.cpp
+  FameWork.cpp
+  GameLogic.cpp
+  global.cpp
+  Graphics.cpp
+  Input.cpp
+  ProcessManger.cpp
+  PuyoBlock.cpp
+  PuyoDraw.cpp
+  PuyoFallingBlock.cpp
+  PuyoFiled.cpp
+  PuyoLogic.cpp
+  PuyoManger.cpp
+  WindowCreator.cpp
+  WindowProc.cpp
+  WinMain.cpp
+  PuyoBitmap.cpp
+  コード生成しています。
+  All 665 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  PuyoPuyo.vcxproj -> D:\Users\petri\Documents\GitHub\PuyoPuyo\x64\Release\PuyoPuyo.exe
